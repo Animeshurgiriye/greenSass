@@ -1,0 +1,363 @@
+@charset "UTF-8";
+#progressbar {
+  width: 100%;
+  background-color: #FFFFFF; }
+
+#next, #prev {
+  cursor: pointer; }
+
+.div1 {
+  display: all; }
+
+.div2 {
+  display: none; }
+
+.main {
+  margin: auto;
+  padding: auto;
+  width: 320px;
+  background: #FFFFFF;
+  text-align: center; }
+  @media only screen and (min-width: 450px) {
+    .main {
+      width: 450px; } }
+  @media only screen and (min-width: 500px) {
+    .main {
+      width: 500px; } }
+  @media only screen and (min-width: 650px) {
+    .main {
+      width: 650px; } }
+  @media only screen and (min-width: 1050px) {
+    .main {
+      width: 1050px; } }
+
+.title {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 53px;
+  margin-right: 54px;
+  text-align: center;
+  height: 50px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 41px;
+  line-height: 49px;
+  color: #355075; }
+  @media only screen and (min-width: 1050px) {
+    .title {
+      margin-left: 419px;
+      margin-right: 418px; } }
+
+.subtitle {
+  position: relative;
+  margin: auto;
+  height: 44px;
+  width: 222px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 35px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #355075; }
+  @media only screen and (min-width: 450px) {
+    .subtitle {
+      width: 384px;
+      padding-left: 33px; } }
+  @media only screen and (min-width: 500px) {
+    .subtitle {
+      width: 384px;
+      padding-left: 58px; } }
+  @media only screen and (min-width: 650px) {
+    .subtitle {
+      width: 384px;
+      padding-left: 58px; } }
+  @media only screen and (min-width: 1050px) {
+    .subtitle {
+      width: 384px;
+      padding-left: 58px;
+      margin-bottom: 36px; } }
+
+#boxRectangle {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  margin-top: 0px;
+  background: #FFB54E; }
+  @media only screen and (min-width: 500px) {
+    #boxRectangle {
+      /* width: 250.11px;*/
+      height: 1.91px; } }
+  @media only screen and (min-width: 650px) {
+    #boxRectangle {
+      /*width: 250.11px;*/
+      height: 1.91px; } }
+  @media only screen and (min-width: 1050px) {
+    #boxRectangle {
+      height: 2px;
+      /*width: 563px;*/ } }
+
+.box {
+  position: relative;
+  align-content: center;
+  width: 304px;
+  height: 660px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  margin: auto;
+  box-shadow: 0px 4px 29px #D6E1E5; }
+  @media only screen and (min-width: 450px) {
+    .box {
+      width: 410px;
+      height: 635px; } }
+  @media only screen and (min-width: 500px) {
+    .box {
+      width: 460px;
+      height: 610px; } }
+  @media only screen and (min-width: 650px) {
+    .box {
+      width: 570px;
+      height: 590px; } }
+  @media only screen and (min-width: 1050px) {
+    .box {
+      width: 970px;
+      height: 450px; } }
+
+.boxImage {
+  position: relative;
+  width: 283.59px;
+  height: 250px;
+  background-size: 283.59px 250px;
+  margin-left: 8px;
+  margin-top: -9px;
+  margin-right: 8px;
+  background: url(image.png); }
+  @media only screen and (min-width: 450px) {
+    .boxImage {
+      width: 392px;
+      height: 220px;
+      background-size: 392px 220px;
+      margin-bottom: -4.88px; } }
+  @media only screen and (min-width: 500px) {
+    .boxImage {
+      width: 440.59px;
+      height: 224.88px;
+      background-size: 440.59px 224.88px;
+      margin-bottom: -4.88px; } }
+  @media only screen and (min-width: 650px) {
+    .boxImage {
+      width: 550.59px;
+      height: 224.88px;
+      background-size: 550.59px 224.88px;
+      margin-bottom: -4.88px; } }
+  @media only screen and (min-width: 1050px) {
+    .boxImage {
+      width: 360px;
+      height: 430px;
+      background-size: 360px 430px;
+      margin-bottom: -4.88px; } }
+
+.boxImage__logo {
+  position: relative;
+  width: 150px;
+  height: 51.83px;
+  padding-left: 11px;
+  padding-top: 33px; }
+  @media only screen and (min-width: 650px) {
+    .boxImage__logo {
+      padding-left: 30px;
+      padding-top: 32px; } }
+  @media only screen and (min-width: 1050px) {
+    .boxImage__logo {
+      padding-left: 30px;
+      padding-top: 110px; } }
+
+.boxImage__profilePic {
+  position: relative;
+  width: 64px;
+  height: 63.27px;
+  margin-left: 17px;
+  margin-top: 28px;
+  border: 3px solid white;
+  border-radius: 50%;
+  background: url("profile.png"); }
+  @media only screen and (min-width: 500px) {
+    .boxImage__profilePic {
+      margin-top: 20px;
+      margin-left: 14px; } }
+  @media only screen and (min-width: 650px) {
+    .boxImage__profilePic {
+      margin-top: 25px;
+      margin-left: 34px; } }
+  @media only screen and (min-width: 1050px) {
+    .boxImage__profilePic {
+      margin-top: -235px;
+      margin-left: 325px; } }
+
+.name {
+  /* by Carmen Lau */
+  position: relative;
+  height: 19px;
+  margin-left: 30px;
+  margin-top: 47px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #355075; }
+  @media only screen and (min-width: 450px) {
+    .name {
+      margin-left: 20px;
+      font-size: 16px; } }
+  @media only screen and (min-width: 500px) {
+    .name {
+      font-size: 16px;
+      line-height: 21px; } }
+  @media only screen and (min-width: 650px) {
+    .name {
+      margin-left: 42px;
+      font-size: 16px;
+      line-height: 21px; } }
+  @media only screen and (min-width: 1050px) {
+    .name {
+      margin-left: 428px;
+      margin-top: -400px;
+      font-size: 16px;
+      line-height: 21px; } }
+
+.boxImage__discription {
+  display: block;
+  position: relative;
+  text-align: left;
+  height: 87px;
+  width: 222px;
+  padding-left: 22px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+  opacity: 0.87; }
+  @media only screen and (min-width: 450px) {
+    .boxImage__discription {
+      height: 65px;
+      width: 350px; } }
+  @media only screen and (min-width: 500px) {
+    .boxImage__discription {
+      width: 379px; } }
+  @media only screen and (min-width: 650px) {
+    .boxImage__discription {
+      width: 476px;
+      line-height: 25px;
+      padding-left: 41px;
+      font-size: 16px; } }
+  @media only screen and (min-width: 1050px) {
+    .boxImage__discription {
+      height: 99px;
+      width: 278px;
+      padding-left: 43px;
+      font-size: 16px;
+      line-height: 25px; } }
+
+.profile {
+  /* Student Marketing Officer, The University of Sydney */
+  position: relative;
+  display: block;
+  text-align: left;
+  height: 33px;
+  width: 252px;
+  margin-left: 30px;
+  margin-top: -10.5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #355075;
+  opacity: 0.7; }
+  @media only screen and (min-width: 450px) {
+    .profile {
+      height: 17px;
+      width: 273px;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 500px) {
+    .profile {
+      height: 17px;
+      width: 273px;
+      margin-left: 20px; } }
+  @media only screen and (min-width: 650px) {
+    .profile {
+      height: 17px;
+      width: 273px;
+      margin-left: 42px; } }
+  @media only screen and (min-width: 1050px) {
+    .profile {
+      height: 17px;
+      width: 278px;
+      margin-left: 428px; } }
+
+.mainDiscription {
+  /* “2018 was a big year for us, and we wanted to create a tool that helps our students choose their courses more easily and effectively for their enrolment. We wanted to create a tool to achieve that goal in a short period. oLab team was phenomenal in understanding the project and they delivered the project within a very tight timeline.” */
+  position: relative;
+  text-align: left;
+  height: 188px;
+  width: 260px;
+  margin-left: 30px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #355075;
+  margin-top: 25px;
+  opacity: 0.87; }
+  @media only screen and (min-width: 450px) {
+    .mainDiscription {
+      height: 183px;
+      width: 373px;
+      margin-left: 23px;
+      font-size: 16px;
+      line-height: 28px;
+      margin-top: 28px; } }
+  @media only screen and (min-width: 500px) {
+    .mainDiscription {
+      height: 157px;
+      width: 420px;
+      margin-left: 20px;
+      font-size: 16px;
+      line-height: 28px; } }
+  @media only screen and (min-width: 650px) {
+    .mainDiscription {
+      height: 194px;
+      width: 491px;
+      margin-left: 42px;
+      margin-top: 0px;
+      font-size: 18px;
+      line-height: 28px; } }
+  @media only screen and (min-width: 1050px) {
+    .mainDiscription {
+      height: 201px;
+      width: 520px;
+      margin-left: 428px;
+      margin-right: 23px;
+      margin-top: 24px;
+      font-size: 20px;
+      line-height: 35px; } }
+
+.button {
+  position: relative;
+  width: 52px;
+  height: 18px;
+  padding-left: 134px;
+  padding-top: 32px;
+  padding-right: 134px;
+  margin: auto; }
+
+/*# sourceMappingURL=green.css.map */
